@@ -17,18 +17,18 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 - [AutoMartini](https://github.com/MolSSI/MMComponents_automartini): automatic generation of Martini ff parameters for small molecules 
 
-[![stability-none](https://img.shields.io/badge/stability-none-red.svg?style=flat)](https://github.com/emersion/stability-badges#experimental)
+[![stability-none](https://img.shields.io/badge/stability-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 - [NAMD](https://github.com/MolSSI/MMComponents_namd): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator 
 
-[![stability-none](https://img.shields.io/badge/stability-none-red.svg?style=social)](https://github.com/emersion/stability-badges#experimental)
+[![stability-none](https://img.shields.io/badge/stability-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Translators
 - [RDKit](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/rdkit_component.py): RDKit to/from MMSchema converter 
 
-[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 - [ParmEd](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/parmed_component.py): ParmEd to/from MMSchema converter 
 
-[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 - [MDAnalysis](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/mdanalysis_component.py): MDAnalysis to/from MMSchema converter 
 
-[![stability-none](https://img.shields.io/badge/stability-none-red.svg)](https://github.com/emersion/stability-badges#experimental)
+[![stability-none](https://img.shields.io/badge/stability-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
