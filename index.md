@@ -4,21 +4,24 @@ The Molecular Mechanics Components (MMComponents) project is a standard for inpu
 This allows reproducibility from statically defined and shareable components, experimentation to find a quality series of components for specific problems and systems, and a mechanism for quality methodological assessment rather than scientist expertise.
 
 <p align="center">
-    <img src="https://github.com/MolSSI/MMComponents/blob/master/mmcomponents/data/imgs/mm_component_hierarchy.png?raw=true" width="500">
+    <img src="mmcomponents/data/imgs/mm_component_hierarchy.png" width="500">
 </p>
 
 We construct an abstract Base Component that is inherited by all MMComponent blueprints. For each scientific problem, a blueprint is defined that specifies what the component seeks to achieve, along with the necessary inputs and outputs. This component is implemented to satisfy the scientific problem by any number of users/developers.
 
-# Components under development
+# Components being developed
 
-## Engines
-- [Autodock vina](https://github.com/MolSSI/MMComponents_autodock): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu) 
+## Simulators
+- [Molecular Docking](https://github.com/MolSSI/MMComponents_docking): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu)
 
 [![stability-experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-- [AutoMartini](https://github.com/MolSSI/MMComponents_automartini): automatic generation of Martini ff parameters for small molecules 
+
+- [Molecular Dynamics](https://github.com/MolSSI/MMComponents_dynamics): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator
 
 [![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-- [NAMD](https://github.com/MolSSI/MMComponents_namd): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator 
+
+## Generators
+- [ForceField](https://github.com/MolSSI/MMComponents_forcefield): automatic generation of Martini forcefield parameters for small organic molecules
 
 [![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
