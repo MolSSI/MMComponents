@@ -26,20 +26,11 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 [![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Translators
-### Topology converters:
-- [RDKit](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/rdkit_component.py): RDKit to/from MMSchema structure/topology converter
-
-[![stability-experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-
-- [ParmEd](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/parmed_component.py): ParmEd to/from MMSchema structure/topology converter
-
-[![stability-experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-- [MDAnalysis](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/mda_component.py): MDAnalysis to/from MMSchema structure/topology converter
-
-[![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-### Trajectory converters
-- [MDAnalysis](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/mda_component.py): MDAnalysis to/from MMSchema trajectory converter
-
-[![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
-### Forcefield converters
-- [Gromacs](https://github.com/MolSSI/MMElemental/blob/master/mmelemental/components/gro_component.py): Gromacs to/from MMSchema force field converter
+| Code       	| Topology 	| Trajectory 	| ForceField 	|
+|------------	|----------	|------------	|------------	|
+| RDKit      	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A |
+| MDAnalysis 	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| MDTraj        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| OpenFFTk      |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| Gromacs       |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
