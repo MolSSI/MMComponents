@@ -26,13 +26,15 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 [![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Translators
+All translators/converters are provided by the [MMElemental](https://github.com/MolSSI/MMElemental) package.
 
-| Code       | Topology | Trajectory | ForceField |
-|------------|----------|------------|------------|
-| RDKit      	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A |
-| MDAnalysis 	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
-| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
-| MDTraj        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
-| OpenFFTk      |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
-| Gromacs       |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| Code       | Topology | Trajectory | ForceField | Simulation | 
+|------------|----------|------------|------------|------------|
+| RDKit      	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A | N/A |
+| MDAnalysis 	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A |
+| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| MDTraj        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| OpenFFTk      |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| Gromacs       |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
+| OpenMM        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
 
