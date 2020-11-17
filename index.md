@@ -21,7 +21,7 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 [![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Generators
-- [ForceField](https://github.com/MolSSI/MMComponents_forcefield): automatic generation of Martini forcefield parameters for small organic molecules
+- [Parameterization](https://github.com/MolSSI/mmic_parameterization): automatic generation of Martini forcefield parameters for small organic molecules
 
 [![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
