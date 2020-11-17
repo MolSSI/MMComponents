@@ -12,11 +12,11 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 # Components being developed
 
 ## Simulators
-- [Molecular Docking](https://github.com/MolSSI/mmic_docking): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu)
+- [Docking](https://github.com/MolSSI/mmic_docking): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu)
 
 [![stability-exp](https://img.shields.io/badge/status-exp-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
-- [Molecular Dynamics](https://github.com/MolSSI/mmic_dynamics): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator
+- [Dynamics](https://github.com/MolSSI/mmic_dynamics): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator
 
 [![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
