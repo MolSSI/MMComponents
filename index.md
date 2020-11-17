@@ -12,18 +12,18 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 # Components being developed
 
 ## Simulators
-- [Molecular Docking](https://github.com/MolSSI/MMComponents_docking): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu)
+- [Molecular Docking](https://github.com/MolSSI/mmic_docking): molecular docking engine based on [Autodock Vina](http://vina.scripps.edu)
 
-[![stability-experimental](https://img.shields.io/badge/status-experimental-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
+[![stability-exp](https://img.shields.io/badge/status-exp-orange.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
-- [Molecular Dynamics](https://github.com/MolSSI/MMComponents_dynamics): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator
+- [Molecular Dynamics](https://github.com/MolSSI/mmic_dynamics): molecular dynamics engine based on the [NAMD](https://www.ks.uiuc.edu/Research/namd) simulator
 
-[![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
+[![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Generators
 - [ForceField](https://github.com/MolSSI/MMComponents_forcefield): automatic generation of Martini forcefield parameters for small organic molecules
 
-[![stability-none](https://img.shields.io/badge/status-none-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
+[![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Translators
 All translators/converters are provided by the [MMElemental](https://github.com/MolSSI/MMElemental) package.
@@ -32,9 +32,10 @@ All translators/converters are provided by the [MMElemental](https://github.com/
 |------------|----------|------------|------------|------------|
 | RDKit      	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A | N/A |
 | MDAnalysis 	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A |
-| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
-| MDTraj        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
-| OpenFFTk      |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
-| Gromacs       |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
-| OpenMM        |<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/NONE%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
+| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| MDTraj        |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| OpenFFTk      |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
+| Gromacs       |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
+| NAMD          |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
+| OpenMM        |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
 
