@@ -4,7 +4,7 @@ The Molecular Mechanics Interoperable Components (MMIC) project provides a stand
 This allows reproducibility from statically defined and shareable components, experimentation to find a quality series of components for specific problems and systems, and a mechanism for quality methodological assessment without the need for deep scientific expertise.
 
 <p align="center">
-    <img src="https://github.com/MolSSI/MMIC/raw/master/mmcomponents/data/imgs/mm_component_hierarchy.png" width="500">
+    <img src="https://github.com/MolSSI/MMIC/raw/master/mmic/data/imgs/mm_component_hierarchy.png" width="500">
 </p>
 
 We construct an abstract Base Component that is inherited by all MMComponent blueprints. For each scientific problem, a blueprint is defined that specifies what the component seeks to achieve, along with the necessary inputs and outputs. This component is implemented to satisfy the scientific problem by any number of users/developers.
@@ -32,7 +32,7 @@ All translators/converters are provided by the [MMElemental](https://github.com/
 |------------|----------|------------|------------|------------|
 | RDKit      	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A | N/A |
 | MDAnalysis 	|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | N/A |
-| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
+| ParmEd  	    |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|
 | MDTraj        |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/EXP%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
 | OpenFFTk      |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A | <img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| N/A |
 | Gromacs       |<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>|<img src="https://img.shields.io/badge/TBD%20-%2314354C.svg?&style=flat&logo=python&logoColor=white"/>| 
