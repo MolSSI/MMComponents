@@ -23,7 +23,7 @@ We construct an abstract Base Component that is inherited by all MMComponent blu
 ## Assemblers
 - [FF-parameters](https://github.com/MolSSI/mmic_param): automatic generation of Martini forcefield parameters for small organic molecules
 
-[![stability-tbd](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
+[![stability-exp](https://img.shields.io/badge/status-tbd-red.svg?style=for-the-badge)](https://github.com/emersion/stability-badges#experimental)
 
 ## Translators
 All translators/converters are provided by the [MMElemental](https://github.com/MolSSI/MMElemental) package.
